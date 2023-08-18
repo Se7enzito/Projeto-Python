@@ -23,8 +23,8 @@ class Aluno():
 a1 = Aluno('Bernardo', 1, '2° Ano')
 a2 = Aluno('Laura', 2, '3° Ano')
 
-print(f"Aluno: {a1.nome}\nID: {a1.id}\nAno: {a1.serie}\nNota: {a1.nota}\nPeso: {a1.peso}\nTotal: {a1.total}\n")
-print(f"Aluno: {a2.nome}\nID: {a2.id}\nAno: {a2.serie}\nNota: {a2.nota}\nPeso: {a2.peso}\nTotal: {a2.total}\n")
+print(f"Aluno: {a1.nome}\nID: {a1.id}\nAno: {a1.serie}\nNota: {a1.nota}\nPeso: {a1.peso}\n")
+print(f"Aluno: {a2.nome}\nID: {a2.id}\nAno: {a2.serie}\nNota: {a2.nota}\nPeso: {a2.peso}\n")
 
 print("Atualizando...")
 a1.registrar_nota(10)
@@ -34,5 +34,5 @@ a2.registrar_nota(30)
 a2.registrar_peso(5)
 print("Tabela atualizada:\n")
 
-print(f"Aluno: {a1.nome}\nID: {a1.id}\nAno: {a1.serie}\nNota: {a1.nota}\nPeso: {a1.peso}\nTotal: {a1.total}\n")
-print(f"Aluno: {a2.nome}\nID: {a2.id}\nAno: {a2.serie}\nNota: {a2.nota}\nPeso: {a2.peso}\nTotal: {a2.total}\n")
+print(f"Aluno: {a1.nome}\nID: {a1.id}\nAno: {a1.serie}\nNota: {a1.nota}\nPeso: {a1.peso}\n")
+print(f"Aluno: {a2.nome}\nID: {a2.id}\nAno: {a2.serie}\nNota: {a2.nota}\nPeso: {a2.peso}\n")
